@@ -176,19 +176,21 @@ export default function AboutMe() {
                 ))}
               </div>
            </div>
-           <div className="md:flex ">
+           <div className="md:flex justify-between">
             <div className=" mt-8">
                 <p className="uppercase text-sm font-bold">Languages</p>
                 { languages.map(i => (
                   <StackItem name={i} />
                 ))}
               </div>
-            {/* <div className=" mt-8">
+            <div className=" mt-8">
                 <p className="uppercase text-sm font-bold">Tools</p>
                 { tools.map(i => (
                   <StackItem name={i} />
                 ))}
-              </div> */}
+              </div>
+            
+
             </div>
           </div>
         </div>
