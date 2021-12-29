@@ -61,13 +61,58 @@ const userData = {
       platform: "Web",
       status: "Development",
     },
+    {
+      title: "Omni Learning",
+      link: "https://omni-learning.com/",
+      imgUrl: "/projects/omni.webp",
+      stack: ["Laravel",  "Bootstrap", "Livewire", "JQuery"],
+      description: "Is an online learning platform that allows you to learn from anywhere.",
+      platform: "Web",
+      status: "Done",
+    },
+    {
+      title: "Exercise Tracker",
+      link: "https://exercisetracker.madechangu.repl.co/",
+      imgUrl: "/projects/etracker.webp",
+      stack: ["NodeJS", "Express", "MongoDB", "Mongoose"],
+      description: "Is an exercise tracker that is build on Nodejs, Express, MongoDB.",
+      platform: "Web",
+      status: "Done",
+    },
+    {
+      title: "File Metadata",
+      link: "https://filemetadata.madechangu.repl.co",
+      imgUrl: "/projects/metadata.webp",
+      stack: ["NodeJS", "Express"],
+      description: "Is a microservice that can detect metadata of an uploaded file.",
+      platform: "Web",
+      status: "Done",
+    },
+    {
+      title: "URL Shortener",
+      link: "https://filemetadata.madechangu.repl.co",
+      imgUrl: "/projects/shortener.webp",
+      stack: ["NodeJS", "Express", "MongoDB", "Mongoose"],
+      description: "Is a microservice that can shorten a given URL.",
+      platform: "Web",
+      status: "Done",
+    },
+    {
+      title: "Timestamp",
+      link: "https://timestamp.madechangu.repl.co",
+      imgUrl: "/projects/timestamp.webp",
+      stack: ["NodeJS", "Express"],
+      description: "Is a microservice that shows you timestamps 😂",
+      platform: "Web",
+      status: "Done",
+    },
 
     
   
   ],
   about: {
     title:
-      "I'm a Zimbabwe-based software developer who specializes in building (and occasionally designing) exceptional digital experiences.",
+      "I'm a Zimbabwe-based software developer who specializes in building exceptional digital experiences.",
     description: [
       `My interest in development started back in 2017 when I decided to self-teach myself Python — I would also experiment with codes that i find on the web inorder to understand how they work.`,
       `My main focus these days is building accessible, inclusive products and digital experiences.`,
@@ -156,12 +201,11 @@ const userData = {
       "Dart",
     ],
     tools: [
-      "Git",
-      "GitHub",
-      "ClickUp",
-      "Trello",
-      "Slack",
-      "Cpanel"
+      "Git, Github",
+      "ClickUp, Trello, Slack",
+      "Cpanel",
+      "Docker",
+      "Kubernetes",
     ]
   }
 };
