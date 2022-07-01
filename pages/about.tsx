@@ -1,4 +1,3 @@
-import { MDXLayoutRenderer } from '@/components/MDXComponents'
 import experience from '@/data/experienceData'
 import { getFileBySlug } from '@/lib/mdx'
 import { GetStaticProps, InferGetStaticPropsType } from 'next'
@@ -6,15 +5,13 @@ import Image from 'next/image'
 import { AuthorFrontMatter } from 'types/AuthorFrontMatter'
 
 
-const DEFAULT_LAYOUT = 'AuthorLayout'
-
 // @ts-ignore
 export const getStaticProps: GetStaticProps<{
   authorDetails: { mdxSource: string; frontMatter: AuthorFrontMatter }
 }> = async () => {
   const authorDetails = await getFileBySlug<AuthorFrontMatter>('authors', ['default'])
   const { mdxSource, frontMatter } = authorDetails
-  return { props: { authorDetails: { mdxSource, frontMatter } } }
+  return { props: {authorDetails: { mdxSource, frontMatter } } }
 }
 
 let aboutStyles: any = {
