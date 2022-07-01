@@ -225,8 +225,8 @@ var SvgLogo = function SvgLogo(props) {
 var Link = __webpack_require__(7966);
 // EXTERNAL MODULE: ./components/SectionContainer.tsx
 var SectionContainer = __webpack_require__(1536);
-// EXTERNAL MODULE: ./components/social-icons/index.tsx + 6 modules
-var social_icons = __webpack_require__(4273);
+// EXTERNAL MODULE: ./components/social-icons/index.tsx + 7 modules
+var social_icons = __webpack_require__(7117);
 ;// CONCATENATED MODULE: ./components/Footer.tsx
 
 
@@ -259,6 +259,11 @@ function Footer() {
                             /*#__PURE__*/ jsx_runtime_.jsx(social_icons/* default */.Z, {
                                 kind: "twitter",
                                 href: (siteMetadata_default()).twitter,
+                                size: 6
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx(social_icons/* default */.Z, {
+                                kind: "whatsapp",
+                                href: (siteMetadata_default()).whatsapp,
                                 size: 6
                             })
                         ]
@@ -664,7 +669,7 @@ module.exports = import("socket.io-client");;
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [686,505,397,664,966,576,45], () => (__webpack_exec__(9887)));
+var __webpack_exports__ = __webpack_require__.X(0, [686,505,397,664,966,576,361], () => (__webpack_exec__(9887)));
 module.exports = __webpack_exports__;
 
 })();
