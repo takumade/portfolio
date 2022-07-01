@@ -62,7 +62,7 @@ module.exports = withBundleAnalyzer({
     domains: ['media-exp1.licdn.com']
   },
   eslint: {
-    dirs: ['pages', 'components', 'lib', 'layouts', 'scripts'],
+    dirs: [],
   },
   async headers() {
     return [
