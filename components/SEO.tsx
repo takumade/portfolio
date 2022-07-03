@@ -3,8 +3,6 @@ import { useRouter } from 'next/router'
 import siteMetadata from '@/data/siteMetadata'
 import { AuthorFrontMatter } from 'types/AuthorFrontMatter'
 import { PostFrontMatter } from 'types/PostFrontMatter'
-import Script from 'next/script'
-
 
 interface CommonSEOProps {
   title: string
@@ -53,21 +51,6 @@ const CommonSEO = ({
         rel="canonical"
         href={canonicalUrl ? canonicalUrl : `${siteMetadata.siteUrl}${router.asPath}`}
       />
-
-<Script
-    strategy="lazyOnload"
-    src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
-  />
-<Script id="google-analytics" strategy="lazyOnload">
-    {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
-              page_path: window.location.pathname,
-            });
-                `}
-  </Script>
     </Head>
   )
 }

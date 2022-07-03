@@ -5,7 +5,7 @@ exports.id = 888;
 exports.ids = [888];
 exports.modules = {
 
-/***/ 8969:
+/***/ 9887:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -26,9 +26,9 @@ var head_default = /*#__PURE__*/__webpack_require__.n(head_);
 // EXTERNAL MODULE: ./data/siteMetadata.js
 var siteMetadata = __webpack_require__(1576);
 var siteMetadata_default = /*#__PURE__*/__webpack_require__.n(siteMetadata);
-// EXTERNAL MODULE: external "next/script"
-var script_ = __webpack_require__(4780);
-var script_default = /*#__PURE__*/__webpack_require__.n(script_);
+;// CONCATENATED MODULE: external "next/script"
+const script_namespaceObject = require("next/script");
+var script_default = /*#__PURE__*/__webpack_require__.n(script_namespaceObject);
 ;// CONCATENATED MODULE: ./components/analytics/GoogleAnalytics.tsx
 
 
@@ -641,13 +641,6 @@ module.exports = require("next/router");
 
 /***/ }),
 
-/***/ 4780:
-/***/ ((module) => {
-
-module.exports = require("next/script");
-
-/***/ }),
-
 /***/ 6689:
 /***/ ((module) => {
 
@@ -676,7 +669,7 @@ module.exports = import("socket.io-client");;
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [686,505,397,664,966,576,361], () => (__webpack_exec__(8969)));
+var __webpack_exports__ = __webpack_require__.X(0, [686,505,397,664,966,576,361], () => (__webpack_exec__(9887)));
 module.exports = __webpack_exports__;
 
 })();
