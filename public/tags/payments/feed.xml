@@ -1,0 +1,74 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>Takunda Madechangu</title>
+      <link>https://taku.co.zw/blog</link>
+      <description>Takunda is a  Full-Stack Software Developer by profession, he enjoys solving different kinds of problemns so he can provide value to different kinds of people .</description>
+      <language>en-us</language>
+      <managingEditor>takunda.madechangu@gmail.com (Takunda Madechangu)</managingEditor>
+      <webMaster>takunda.madechangu@gmail.com (Takunda Madechangu)</webMaster>
+      <lastBuildDate>Sun, 03 Jul 2022 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://taku.co.zw/tags/payments/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://taku.co.zw/blog/payments/failing-paynow-integration</guid>
+    <title>Is your Paynow integration failing? Here is how to fix it</title>
+    <link>https://taku.co.zw/blog/payments/failing-paynow-integration</link>
+    <description>Sometimes your integration may not always work out of the box. Here are some tips to help you fix it.</description>
+    <pubDate>Sun, 03 Jul 2022 00:00:00 GMT</pubDate>
+    <author>takunda.madechangu@gmail.com (Takunda Madechangu)</author>
+    <category>Paynow</category><category>Payments</category><category>Integration</category>
+  </item>
+
+  <item>
+    <guid>https://taku.co.zw/blog/payments/paynow-integration-part-five-php</guid>
+    <title>Paynow Integration Part 5a - Checking for payments</title>
+    <link>https://taku.co.zw/blog/payments/paynow-integration-part-five-php</link>
+    <description>If you don&#39;t check and verify your payments your customers can buy things for free from you.(PHP)</description>
+    <pubDate>Sun, 03 Jul 2022 00:00:00 GMT</pubDate>
+    <author>takunda.madechangu@gmail.com (Takunda Madechangu)</author>
+    <category>Paynow</category><category>Payments</category><category>Integration</category>
+  </item>
+
+  <item>
+    <guid>https://taku.co.zw/blog/payments/paynow-integration-part-four-php</guid>
+    <title>Paynow Integration Part 4a - PHP Integration</title>
+    <link>https://taku.co.zw/blog/payments/paynow-integration-part-four-php</link>
+    <description>So we have finished the boring part now lets integrate Paynow into our project(PHP).</description>
+    <pubDate>Sun, 03 Jul 2022 00:00:00 GMT</pubDate>
+    <author>takunda.madechangu@gmail.com (Takunda Madechangu)</author>
+    <category>Paynow</category><category>Payments</category><category>Integration</category>
+  </item>
+
+  <item>
+    <guid>https://taku.co.zw/blog/payments/paynow-integration-part-three</guid>
+    <title>Paynow Integration Part 3 - Installation</title>
+    <link>https://taku.co.zw/blog/payments/paynow-integration-part-three</link>
+    <description>After getting the keys the next stage is to install Paynow library or SDK.</description>
+    <pubDate>Sun, 03 Jul 2022 00:00:00 GMT</pubDate>
+    <author>takunda.madechangu@gmail.com (Takunda Madechangu)</author>
+    <category>Paynow</category><category>Payments</category><category>Integration</category>
+  </item>
+
+  <item>
+    <guid>https://taku.co.zw/blog/payments/paynow-integration-part-two</guid>
+    <title>Paynow Integration Part 2 - Getting Keys</title>
+    <link>https://taku.co.zw/blog/payments/paynow-integration-part-two</link>
+    <description>The first step to integrate Paynow into your app is getting keys. Without the keys you can&#39;t accept payments.</description>
+    <pubDate>Sun, 03 Jul 2022 00:00:00 GMT</pubDate>
+    <author>takunda.madechangu@gmail.com (Takunda Madechangu)</author>
+    <category>Paynow</category><category>Payments</category><category>Integration</category>
+  </item>
+
+  <item>
+    <guid>https://taku.co.zw/blog/payments/paynow-integration-part-one</guid>
+    <title>Paynow Integration Part 1 - Intro</title>
+    <link>https://taku.co.zw/blog/payments/paynow-integration-part-one</link>
+    <description>Ever wondered how you can recieve payments on your website? Well read on to find out how you can do that  using Paynow.</description>
+    <pubDate>Fri, 01 Jul 2022 00:00:00 GMT</pubDate>
+    <author>takunda.madechangu@gmail.com (Takunda Madechangu)</author>
+    <category>Paynow</category><category>Payments</category><category>Integration</category>
+  </item>
+
+    </channel>
+  </rss>

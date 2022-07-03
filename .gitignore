@@ -11,7 +11,7 @@
 .vercel
 
 # production
-*.xml
+
 # rss feed
 /public/feed.xml
 
