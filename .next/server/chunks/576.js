@@ -31,7 +31,7 @@ const siteMetadata = {
     analytics: {
         // If you want to use an analytics provider you have to add it to the
         // content security policy in the `next.config.js` file.
-        googleAnalyticsId: ""
+        googleAnalyticsId: "G-2TZKCD5W4B"
     },
     newsletter: {
         // supports mailchimp, buttondown, convertkit, klaviyo, revue, emailoctopus
@@ -43,14 +43,14 @@ const siteMetadata = {
         // content security policy in the `next.config.js` file.
         // Select a provider and use the environment variables associated to it
         // https://vercel.com/docs/environment-variables
-        provider: "disqus",
+        provider: "giscus",
         giscusConfig: {
             // Visit the link below, and follow the steps in the 'configuration' section
             // https://giscus.app/
-            repo: "takundamade/portfolio",
-            repositoryId: "R_kgDOHWp6mw",
+            repo: "takumade/portfolio",
+            repositoryId: "R_kgDOGlezjw",
             category: "General",
-            categoryId: "DIC_kwDOHWp6m84CPlKp",
+            categoryId: "DIC_kwDOGlezj84CQBJg",
             mapping: "pathname",
             reactions: "1",
             // Send discussion metadata periodically to the parent window: 1 = enable / 0 = disable

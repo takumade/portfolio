@@ -123,7 +123,7 @@ export default function About({ authorDetails }: InferGetStaticPropsType<typeof 
 
                 <ol className='text-center'>
                   <li className="font-mono">Backend Development</li>
-                  <li className="font-mono">Fronted Development</li>
+                  <li className="font-mono">Frontend Development</li>
                   <li className="font-mono">API Design & Development</li>
                   <li className="font-mono">Database Design</li>
                   <li className="font-mono">Desktop Development</li>

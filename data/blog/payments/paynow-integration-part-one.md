@@ -1,5 +1,5 @@
 ---
-title: PayNow Integration Part 1 - Intro
+title: Paynow Integration Part 1 - Intro
 date: '2022-07-01'
 tags: ['Paynow', 'Payments', 'Integration']
 draft: false
@@ -9,8 +9,6 @@ layout: PostLayout
 readTime: '4 minute read'
 ---
 
-
-![Paynow](https://dev-to-uploads.s3.amazonaws.com/i/quxgsxbu1wnmwedvhruw.jpg)
 
 Wassup everybody, how are you doing , in this coming series of tutorials I am going to teach you how to integrate PayNow into your web app or website.
 

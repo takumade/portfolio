@@ -419,7 +419,7 @@ function About({ authorDetails  }) {
                                                 }),
                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
                                                     className: "font-mono",
-                                                    children: "Fronted Development"
+                                                    children: "Frontend Development"
                                                 }),
                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
                                                     className: "font-mono",
