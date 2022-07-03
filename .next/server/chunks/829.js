@@ -19,6 +19,9 @@ exports.modules = {
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _data_siteMetadata__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(1576);
 /* harmony import */ var _data_siteMetadata__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_data_siteMetadata__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var next_script__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(4780);
+/* harmony import */ var next_script__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_script__WEBPACK_IMPORTED_MODULE_4__);
+
 
 
 
@@ -89,6 +92,22 @@ const CommonSEO = ({ title , description , ogType , ogImage , twImage , canonica
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
                 rel: "canonical",
                 href: canonicalUrl ? canonicalUrl : `${(_data_siteMetadata__WEBPACK_IMPORTED_MODULE_3___default().siteUrl)}${router.asPath}`
+            }),
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_script__WEBPACK_IMPORTED_MODULE_4___default()), {
+                strategy: "lazyOnload",
+                src: `https://www.googletagmanager.com/gtag/js?id=${"G-2TZKCD5W4B"}`
+            }),
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_script__WEBPACK_IMPORTED_MODULE_4___default()), {
+                id: "google-analytics",
+                strategy: "lazyOnload",
+                children: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${"G-2TZKCD5W4B"}', {
+              page_path: window.location.pathname,
+            });
+                `
             })
         ]
     });

@@ -307,6 +307,13 @@ module.exports = require("next/router");
 
 /***/ }),
 
+/***/ 4780:
+/***/ ((module) => {
+
+module.exports = require("next/script");
+
+/***/ }),
+
 /***/ 6689:
 /***/ ((module) => {
 
