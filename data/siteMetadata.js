@@ -11,7 +11,7 @@ const siteMetadata = {
   rss: 'https://taku.co.zw/feed.xml',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.jpeg',
-  socialBanner: '/static/images/twitter-card.jpg',
+  socialBanner: '/static/images/twitter-card.png',
   email: 'takunda.madechangu@gmail.com',
   github: 'https://github.com/takumade',
   twitter: 'https://twitter.com/takucoder',
